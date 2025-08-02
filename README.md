@@ -11,11 +11,9 @@
   <p align="center">
     Basic HTTP server, made in Go!
     <br />
-    <br />
-    <a href=""><img src="https://img.shields.io/badge/version-1.0.0-20250802" height="22" alt="Version"/></a>
+    <a href=""><img src="https://img.shields.io/badge/version-1.0.1-20250802" height="22" alt="Version"/></a>
 </div>
 
-<br />
 <br />
 
 <div align="center">
@@ -25,8 +23,6 @@
 #### This project creates a web server that loads HTML pages through a template via HTTP requests. The project runs on port `33`, so before running the project on your local machine, make sure port `33` is available.
 
 </div>
-
-<br/>
 <br/>
 
 ### Construído com

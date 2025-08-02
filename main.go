@@ -5,14 +5,12 @@ import (
 	"text/template"
 )
 
-var temp = template.Must(template.ParseGlob("templates/*.html"))
-
-// Variable created to reference the html index page
+var temp = template.Must(template.ParseGlob("templates/*.html")) // Variable created to reference the html index page
 
 func main() {
 	http.HandleFunc("/", index) // (router , function of handle)
 	http.ListenAndServe(":33", nil)
-	// *:8000* Port used to host the HTTP server
+	// *:33* Port used to host the HTTP server
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
